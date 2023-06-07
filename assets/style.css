@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  background-color: rgb(241, 228, 32);
+  color: rgb(78, 70, 60);
+}
+
+h1 {
+  font-size: 5em;
+  font-size: 5em;
+  background-color: antiquewhite;
+  border: 1px solid;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+}
+
+ul {
+  padding: 0;
+}
+
+section {
+  text-align: initial;
+  margin: 50px;
+}
+
+.task-done {
+  text-decoration: line-through;
+}

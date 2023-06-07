@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task list</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Task List</h1>
+    </header>
+    <main>
+      <form id="main-form">
+        <label for="task">Kind of task</label>
+        <input id="task" required />
+        <button>
+          <i class="fas fa-plus"></i>
+        </button>
+      </form>
+    </main>
+    <section>
+      <ul id="task-list"></ul>
+    </section>
+
+    <script src="JS/D3.js"></script>
+  </body>
+</html>
